@@ -106,7 +106,7 @@
         <div
           v-for="project in projects"
           :key="project.id"
-          class="m-4 p-4 border flex flex-col justify-between border-gray-300 rounded-lg shadow-lg h-[450px] w-full md:w-1/3"
+          class="m-4 p-4 border flex flex-col justify-between border-gray-300 rounded-lg shadow-lg min-h-[450px] max-h-fit w-full md:w-1/3"
         >
           <h3 class="text-xl font-semibold text-gray-200">
             {{ project.title }}
