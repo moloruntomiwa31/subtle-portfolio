@@ -5,18 +5,21 @@
     <div>
       <p class="text-gray-600">&copy;{{ presentYear }}. All rights reserved.</p>
     </div>
-    <div id="contact" class="md:w-lg bg-black bg-texture p-4 rounded text-center">
+    <div
+      id="contact"
+      class="md:w-lg bg-black bg-texture p-4 rounded text-center"
+    >
       <p class="text-white text-lg font-semibold">Get In Touch</p>
       <div class="flex flex-col justify-center items-center space-y-3">
         <p class="text-lg text-gray-300 mt-4 max-w-2xl">
-          I'm currently open to new opportunities. If you'd like to work with me
-          or just say hi, feel free to reach out.
+          Ready to deliver impacting digital solutions?
         </p>
-        <a href="mailto:femisteves11@outlook.com"
+        <a
+          href="mailto:femisteves11@outlook.com"
           class="bg-white flex items-center justify-center p-1 rounded w-fit cursor-pointer"
         >
-          <Icon name="ic:baseline-email" style="color: black" size="1rem" /> <span class="ml-1">Send
-            me an email.</span>
+          <Icon name="ic:baseline-email" style="color: black" size="1rem" />
+          <span class="ml-1">Send me an email.</span>
         </a>
       </div>
     </div>
