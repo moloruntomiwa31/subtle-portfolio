@@ -3,7 +3,7 @@
   <!-- Hero -->
   <div class="bg-black bg-texture">
     <div
-      class="flex flex-col items-center justify-center text-center p-12 h-screen"
+      class="flex flex-col items-center justify-center text-center p-12 h-screen md:h-[50vh] lg:h-screen"
     >
       <p class="uppercase tracking-wider text-white">Hello, my name is</p>
       <span class="w-16 h-0.5 bg-white"></span>
@@ -106,7 +106,7 @@
         <div
           v-for="project in projects"
           :key="project.id"
-          class="m-4 p-4 border flex flex-col justify-between border-gray-300 rounded-lg shadow-lg min-h-[450px] max-h-fit w-full md:w-1/3"
+          class="m-4 p-4 border flex flex-col justify-between border-gray-300 rounded-lg shadow-lg min-h-[450px] max-h-fit w-full md:min-w-1/3"
         >
           <h3 class="text-xl font-semibold text-gray-200">
             {{ project.title }}
